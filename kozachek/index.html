@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <title>KOZACHEK</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="total-bg">
+      <header class="header">
+        <div class="header__top" id="header__top">
+          <div class="container">
+            <div class="header__top-inner">
+              <a class="header__logo" href="/">
+                <img src="images/page-main/header/kozachek.svg" alt="логотип">
+              </a>
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a class="header__nav-link header__nav-link--main" href="#header__top">Главная</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="about.html">О нас</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="services.html">Услуги</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="autopark.html">Автопарк</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="contacts.html">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__contacts">
+                <div class="header__contacts-text">
+                  <a class="header__tel" href="tel:+79201555033">+7 (920) 155-5033</a>
+                  <a class="header__mail" href="mailto:info@tk-kozachek.ru">info@tk-kozachek.ru</a>
+                </div>
+                <div class="header__contacts-icon">
+                  <svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24.3938 0.407196C17.766 0.407196 11.9 3.7159 8.3493 8.76504C9.08414 9.24444 9.80043 9.90185 10.4932 10.747C13.1421 6.78619 17.4252 4.00729 22.3807 3.40991L24.3936 6.8161L26.4064 3.40984C34.0239 4.32787 40.0788 10.3825 40.9972 17.9999L37.5905 20.013L40.9973 22.0262C40.3833 27.119 37.4667 31.5036 33.3289 34.1314C33.5924 34.7322 33.7409 35.3466 33.7671 35.98C33.7865 36.4428 33.7387 36.8802 33.6428 37.2954C39.802 33.9859 44 27.4816 44 20.0134C44 9.20224 35.205 0.407196 24.3938 0.407196ZM29.3971 32.6967C24.8774 29.0643 23.6136 30.8498 21.5628 32.9003C20.1311 34.3325 16.508 31.3417 13.3796 28.2132C10.251 25.0842 7.2608 21.4617 8.69238 20.0298C10.7433 17.9792 12.5283 16.7147 8.89491 12.1962C5.26276 7.67604 2.84146 11.1463 0.854919 13.133C-1.43855 15.4256 0.734063 23.9695 9.17818 32.4149C17.6234 40.8592 26.1672 43.0303 28.4593 40.7385C30.4456 38.7518 33.9169 36.3308 29.3971 32.6967ZM15.6319 23.0816C15.6319 19.0641 20.3353 18.3484 20.3353 16.7807C20.3353 16.0199 19.7264 15.7006 19.1632 15.7006C18.1281 15.7006 17.5503 16.8569 17.5503 16.8569L15.5716 15.5329C15.5716 15.5329 16.5762 13.1891 19.407 13.1891C21.1875 13.1891 23.1204 14.209 23.1204 16.5222C23.1204 19.9162 18.737 20.5709 18.6608 21.9711H23.288V24.2538H15.754C15.6777 23.8278 15.6319 23.4475 15.6319 23.0816ZM24.4007 20.0078L28.6018 13.3715H31.8587V19.414H33.1522V21.6206H31.8587V24.254H29.2254V21.6206H24.4007V20.0078H24.4007ZM29.2253 19.414V16.9788C29.2253 16.3851 29.3167 15.7609 29.3167 15.7609H29.2863C29.2863 15.7609 29.0583 16.4308 28.7535 16.8874L27.1102 19.3836V19.4141L29.2253 19.414Z"
+                      fill="black" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__body" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+          <div class="container">
+            <div class="header__body-inner">
+              <h1 class="header__title">экспресс-доставка автозапчастей</h1>
+              <p class="header__subtitle-1">регулярные рейсы</p>
+              <p class="header__subtitle-2">СПБ — МСК</p>
+              <a class="header__button-link button" href="#contacts">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="main__services services" data-aos="fade-down" data-aos-duration="2000">
+        <div class="container">
+          <div class="services__inner">
+            <div class="services__content-left">
+              <h2 class="services__title">
+                <span class="services__title-1">Наши</span>
+                <span class="services__title-2">услуги</span>
+              </h2>
+              <p class="services__subtitle">
+                <span class="services__subtitle-number">78%</span>
+                <span class="services__subtitle-text">клиентов заказывают услуги в комплексе</span>
+              </p>
+              <ul class="services__list">
+                <li class="services__item">
+                  Экспресс <br> СПБ — МСК — СПБ
+                </li>
+                <li class="services__item">
+                  Складская <br> обработка поставок
+                </li>
+                <li class="services__item">
+                  Погрузо-разгрузочные <br> работы
+                </li>
+                <li class="services__item">
+                  Ответственное <br> хранение
+                </li>
+                <li class="services__item">
+                  Доставка документов
+                </li>
+                <li class="services__item">
+                  Доставка до двери
+                </li>
+              </ul>
+              <a class="services__button button" href="#contacts">Заказать услуги</a>
+            </div>
+            <div class="services__content-right">
+              <ul class="services__image-list">
+                <li class="services__image-item services__image-item--1">
+                  <div class="services__image-box">
+                    <img src="images/page-main/services/image-1.jpg" alt="">
+                  </div>
+                </li>
+                <li class="services__image-item services__image-item--2">
+                  <div class="services__image-box">
+                    <img src="images/page-main/services/image-2.jpg" alt="">
+                  </div>
+                </li>
+                <li class="services__image-item services__image-item--3">
+                  <div class="services__image-box">
+                    <img src="images/page-main/services/image-3.jpg" alt="">
+                  </div>
+                </li>
+                <li class="services__image-item services__image-item--4">
+                  <div class="services__image-box">
+                    <img src="images/page-main/services/image-4.jpg" alt="">
+                  </div>
+                </li>
+              </ul>
+              <a class="services__block-link block-link" href="services.html">
+                <p>Перейти в раздел “Услуги”</p>
+                <div class="services__block-icon block-icon">
+                  <svg version="1.1" id="Слой_1" fill="#000" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+                    viewBox="0 0 435 275" style="enable-background:new 0 0 435 275;" xml:space="preserve">
+                    <path class="st0"
+                      d="M156.7,47.9l-83.8,83.8c-5.1,5.1-5.1,13.5,0,18.6l83.8,83.8c5.1,5.1,13.5,5.1,18.6,0s5.1-13.5,0-18.6L114,154.1 h243v-26.3H114l61.3-61.3c5.1-5.1,5.1-13.5,0-18.6S161.8,42.7,156.7,47.9z" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <main class="main">
+      <section class="main__advantages advantages" data-aos="zoom-in-right" data-aos-duration="2000">
+        <div class="container">
+          <div class="advantages__inner">
+            <h2 class="advantages__title">
+              <span class="advantages__title-1">Наши</span>
+              <span class="advantages__title-2">преимущества</span>
+            </h2>
+            <div class="advantages__content">
+              <ul class="advantages__list">
+                <div class="advantages__item-wrapper">
+                  <li class="advantages__item advantages__item--1">
+                    <div class="advantages__star">
+                      <svg width="134" height="134" viewBox="0 0 134 134" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="path__star"
+                          d="M67 4.07318L86.5238 38.7118L86.9732 39.5092L87.8705 39.6903L126.847 47.5545L99.9369 76.8267L99.3174 77.5005L99.4224 78.4099L103.987 117.909L67.8323 101.361L67 100.98L66.1677 101.361L30.0125 117.909L34.5776 78.4099L34.6826 77.5005L34.0631 76.8267L7.15304 47.5545L46.1295 39.6903L47.0268 39.5092L47.4762 38.7118L67 4.07318Z"
+                          stroke="#4D8CEB" stroke-width="4" />
+                        <path class="path__number" d="M65.13 86V49.7L67.495 52.285H56.44V47.5H70.575V86H65.13Z"
+                          fill="#4D8CEB" />
+                      </svg>
+                    </div>
+                    <span class="advantages__text advantages__text--1">Складская логистика в СПб и Москве</span>
+                  </li>
+                  <li class="advantages__item">
+                    <div class="advantages__star">
+                      <svg width="134" height="134" viewBox="0 0 134 134" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="path__star"
+                          d="M67 4.07318L86.5238 38.7118L86.9732 39.5092L87.8705 39.6903L126.847 47.5545L99.9369 76.8267L99.3174 77.5005L99.4224 78.4099L103.987 117.909L67.8323 101.361L67 100.98L66.1677 101.361L30.0125 117.909L34.5776 78.4099L34.6826 77.5005L34.0631 76.8267L7.15304 47.5545L46.1295 39.6903L47.0268 39.5092L47.4762 38.7118L67 4.07318Z"
+                          stroke="#4D8CEB" stroke-width="4" />
+                        <path class="path__number"
+                          d="M54.035 86V82.26L69.71 67.135C71.1033 65.815 72.13 64.66 72.79 63.67C73.4867 62.6433 73.945 61.7083 74.165 60.865C74.4217 59.985 74.55 59.1417 74.55 58.335C74.55 56.355 73.8533 54.7967 72.46 53.66C71.0667 52.5233 69.0317 51.955 66.355 51.955C64.3017 51.955 62.45 52.3033 60.8 53C59.15 53.66 57.72 54.705 56.51 56.135L52.77 52.89C54.2367 51.02 56.1983 49.59 58.655 48.6C61.1483 47.5733 63.88 47.06 66.85 47.06C69.5267 47.06 71.855 47.5 73.835 48.38C75.815 49.2233 77.3367 50.4517 78.4 52.065C79.5 53.6783 80.05 55.585 80.05 57.785C80.05 59.0317 79.885 60.26 79.555 61.47C79.225 62.68 78.6017 63.9633 77.685 65.32C76.7683 66.6767 75.4483 68.1983 73.725 69.885L59.755 83.36L58.435 81.215H81.7V86H54.035Z"
+                          fill="#4D8CEB" />
+                      </svg>
+                    </div>
+                    <span class="advantages__text">Опытные водители</span>
+                  </li>
+                </div>
+                <div class="advantages__item-wrapper">
+                  <li class="advantages__item advantages__item--3">
+                    <div class="advantages__star">
+                      <svg width="134" height="134" viewBox="0 0 134 134" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="path__star"
+                          d="M67 4.07318L86.5238 38.7118L86.9732 39.5092L87.8705 39.6903L126.847 47.5545L99.9369 76.8267L99.3174 77.5005L99.4224 78.4099L103.987 117.909L67.8323 101.361L67 100.98L66.1677 101.361L30.0125 117.909L34.5776 78.4099L34.6826 77.5005L34.0631 76.8267L7.15304 47.5545L46.1295 39.6903L47.0268 39.5092L47.4762 38.7118L67 4.07318Z"
+                          stroke="#4D8CEB" stroke-width="4" />
+                        <path class="path__number"
+                          d="M66.41 86.44C63.6967 86.44 61.0567 86.0183 58.49 85.175C55.96 84.3317 53.8883 83.195 52.275 81.765L54.805 77.42C56.0883 78.63 57.7567 79.62 59.81 80.39C61.8633 81.16 64.0633 81.545 66.41 81.545C69.27 81.545 71.4883 80.94 73.065 79.73C74.6783 78.4833 75.485 76.815 75.485 74.725C75.485 72.7083 74.715 71.095 73.175 69.885C71.6717 68.6383 69.27 68.015 65.97 68.015H62.89V64.165L74.33 50.085L75.1 52.285H54.035V47.5H79.445V51.24L68.06 65.265L65.2 63.56H67.015C71.6717 63.56 75.155 64.605 77.465 66.695C79.8117 68.785 80.985 71.4433 80.985 74.67C80.985 76.8333 80.4533 78.8133 79.39 80.61C78.3267 82.4067 76.7133 83.8367 74.55 84.9C72.4233 85.9267 69.71 86.44 66.41 86.44Z"
+                          fill="#4D8CEB" />
+                      </svg>
+                    </div>
+                    <span class="advantages__text">Большой автопарк</span>
+                  </li>
+                  <li class="advantages__item">
+                    <div class="advantages__star">
+                      <svg width="134" height="134" viewBox="0 0 134 134" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="path__star"
+                          d="M67 4.07318L86.5238 38.7118L86.9732 39.5092L87.8705 39.6903L126.847 47.5545L99.9369 76.8267L99.3174 77.5005L99.4224 78.4099L103.987 117.909L67.8323 101.361L67 100.98L66.1677 101.361L30.0125 117.909L34.5776 78.4099L34.6826 77.5005L34.0631 76.8267L7.15304 47.5545L46.1295 39.6903L47.0268 39.5092L47.4762 38.7118L67 4.07318Z"
+                          stroke="#4D8CEB" stroke-width="4" />
+                        <path class="path__number"
+                          d="M49.09 76.54V72.69L68.78 47.5H74.72L55.195 72.69L52.39 71.81H83.135V76.54H49.09ZM70.485 86V76.54L70.65 71.81V63.45H75.82V86H70.485Z"
+                          fill="#4D8CEB" />
+                      </svg>
+                    </div>
+                    <span class="advantages__text advantages__text--4">Вечерний забор груза в СПб</span>
+                  </li>
+                </div>
+                <li class="advantages__item">
+                  <div class="advantages__star">
+                    <svg width="134" height="134" viewBox="0 0 134 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="path__star"
+                        d="M67 4.07318L86.5238 38.7118L86.9732 39.5092L87.8705 39.6903L126.847 47.5545L99.9369 76.8267L99.3174 77.5005L99.4224 78.4099L103.987 117.909L67.8323 101.361L67 100.98L66.1677 101.361L30.0125 117.909L34.5776 78.4099L34.6826 77.5005L34.0631 76.8267L7.15304 47.5545L46.1295 39.6903L47.0268 39.5092L47.4762 38.7118L67 4.07318Z"
+                        stroke="#4D8CEB" stroke-width="4" />
+                      <path class="path__number"
+                        d="M67.07 86.44C64.3567 86.44 61.7167 86.0183 59.15 85.175C56.62 84.3317 54.5483 83.195 52.935 81.765L55.465 77.42C56.7483 78.63 58.4167 79.62 60.47 80.39C62.5233 81.16 64.705 81.545 67.015 81.545C69.9483 81.545 72.2033 80.9217 73.78 79.675C75.3567 78.4283 76.145 76.76 76.145 74.67C76.145 73.24 75.7967 71.9933 75.1 70.93C74.4033 69.8667 73.1933 69.06 71.47 68.51C69.7833 67.9233 67.455 67.63 64.485 67.63H55.74L57.775 47.5H79.5V52.285H59.81L62.67 49.59L61.075 65.485L58.215 62.845H65.64C69.49 62.845 72.5883 63.34 74.935 64.33C77.2817 65.32 78.9867 66.695 80.05 68.455C81.1133 70.1783 81.645 72.1767 81.645 74.45C81.645 76.65 81.1133 78.6667 80.05 80.5C78.9867 82.2967 77.3733 83.745 75.21 84.845C73.0833 85.9083 70.37 86.44 67.07 86.44Z"
+                        fill="#4D8CEB" />
+                    </svg>
+                  </div>
+                  <span class="advantages__text advantages__text--5">Доставка до клиента в Москве на следующий
+                    день</span>
+                </li>
+              </ul>
+              <a class="advantages__block-link block-link" href="about.html">
+                <p>Перейти в раздел “О нас”</p>
+                <div class="advantages__block-icon block-icon">
+                  <svg version="1.1" id="Слой_1" fill="#000" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+                    viewBox="0 0 435 275" style="enable-background:new 0 0 435 275;" xml:space="preserve">
+                    <path class="st0"
+                      d="M156.7,47.9l-83.8,83.8c-5.1,5.1-5.1,13.5,0,18.6l83.8,83.8c5.1,5.1,13.5,5.1,18.6,0s5.1-13.5,0-18.6L114,154.1 h243v-26.3H114l61.3-61.3c5.1-5.1,5.1-13.5,0-18.6S161.8,42.7,156.7,47.9z" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="decor">
+        <section class="main__delivery delivery" data-aos="fade-right" data-aos-duration="2000">
+          <div class="container">
+            <div class="delivery__inner">
+              <div class="delivery__heading">
+                <h2 class="delivery__title">
+                  <span class="delivery__title-1">Доставим груз </span>
+                  <span class="delivery__title-2">вовремя</span>
+                </h2>
+                <p class="delivery__subtitle">экспресс-доставка</p>
+              </div>
+              <ul class="delivery__list">
+                <li class="delivery__item">
+                  <svg class="delivery__ellipse" width="124" height="124" viewBox="0 0 124 124" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle class="delivery__circle" cx="62" cy="62" r="62" fill="white" />
+                    <path class="delivery__number" d="M60.624 85V42.76L63.376 45.768H50.512V40.2H66.96V85H60.624Z"
+                      fill="black" />
+                  </svg>
+                  <p class="delivery__text">
+                    Мы забираем ваш груз в СПб до 17-00 / <br>
+                    вы сами привозите к нам на склад в СПб до 19-00
+                  </p>
+                </li>
+                <li class="delivery__item">
+                  <svg class="delivery__ellipse" width="124" height="124" viewBox="0 0 124 124" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle class="delivery__circle" cx="62" cy="62" r="62" fill="white" />
+                    <path class="delivery__number"
+                      d="M46.368 85V80.648L64.608 63.048C66.2293 61.512 67.424 60.168 68.192 59.016C69.0027 57.8213 69.536 56.7333 69.792 55.752C70.0907 54.728 70.24 53.7467 70.24 52.808C70.24 50.504 69.4293 48.6907 67.808 47.368C66.1867 46.0453 63.8187 45.384 60.704 45.384C58.3147 45.384 56.16 45.7893 54.24 46.6C52.32 47.368 50.656 48.584 49.248 50.248L44.896 46.472C46.6027 44.296 48.8853 42.632 51.744 41.48C54.6453 40.2853 57.824 39.688 61.28 39.688C64.3947 39.688 67.104 40.2 69.408 41.224C71.712 42.2053 73.4827 43.6347 74.72 45.512C76 47.3893 76.64 49.608 76.64 52.168C76.64 53.6187 76.448 55.048 76.064 56.456C75.68 57.864 74.9547 59.3573 73.888 60.936C72.8213 62.5147 71.2853 64.2853 69.28 66.248L53.024 81.928L51.488 79.432H78.56V85H46.368Z"
+                      fill="black" />
+                  </svg>
+                  <p class="delivery__text">
+                    Мы осуществим доставку до ваших клиентов в Москве на следующий день / <br>
+                    клиент сам может забрать груз с нашего склада в Москве
+                  </p>
+                </li>
+              </ul>
+              <div class="delivery__image-box">
+                <img class="delivery__image" src="images/page-main/delivery/truck.png" alt="truck">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__clients clients" data-aos="flip-up" data-aos-duration="2000">
+          <div class="container">
+            <div class="clients__inner">
+              <div class="clients__heading">
+                <h2 class="clients__title">
+                  <span class="clients__title-1">Наши</span>
+                  <span class="clients__title-2">клиенты</span>
+                </h2>
+                <p class="clients__subtitle">
+                  высокий уровень обслуживания и скорость доставки
+                  являются залогом нашего успеха
+                </p>
+              </div>
+              <ul class="clients__list">
+                <div class="clients__item-wrapper clients__item-wrapper--1">
+                  <li class="clients__item">
+                    <img src="images/page-main/clients/ruval.png" alt="">
+                  </li>
+                  <li class="clients__item">
+                    <img src="images/page-main/clients/atc.png" alt="">
+                  </li>
+                </div>
+                <li class="clients__item clients__item--3">
+                  <img src="images/page-main/clients/valvoline.png" alt="">
+                </li>
+                <div class="clients__item-wrapper">
+                  <li class="clients__item">
+                    <img src="images/page-main/clients/todux.png" alt="">
+                  </li>
+                  <li class="clients__item">
+                    <img src="images/page-main/clients/parts.png" alt="">
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="main__contacts contacts" id="contacts" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+          <div class="container">
+            <div class="contacts__inner">
+              <div class="contacts__heading">
+                <h2 class="contacts__title">контакты</h2>
+                <p class="contacts__subtitle">Заполните форму и мы свяжемся с вами в ближайшее время</p>
+              </div>
+              <div class="contacts__content">
+                <form class="contacts__form">
+                  <input class="contacts__item" type="text" placeholder="Ваше имя*" required>
+                  <input class="contacts__item" type="email" placeholder="Ваш email">
+                  <input class="contacts__item" type="tel" placeholder="Ваш телефон*" required>
+                  <textarea class="contacts__item" placeholder="Комментарий"></textarea>
+                  <button class="contacts__button button" type="submit">Оставить заявку</button>
+                </form>
+                <a class="contacts__block-link block-link" href="contacts.html">
+                  <p>Перейти в раздел “Контакты”</p>
+                  <div class="contacts__block-icon block-icon">
+                    <svg version="1.1" id="Слой_1" fill="#000" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+                      viewBox="0 0 435 275" style="enable-background:new 0 0 435 275;" xml:space="preserve">
+                      <path class="st0"
+                        d="M156.7,47.9l-83.8,83.8c-5.1,5.1-5.1,13.5,0,18.6l83.8,83.8c5.1,5.1,13.5,5.1,18.6,0s5.1-13.5,0-18.6L114,154.1 h243v-26.3H114l61.3-61.3c5.1-5.1,5.1-13.5,0-18.6S161.8,42.7,156.7,47.9z" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <a class="footer__logo" href="/">
+              <img src="images/page-main/footer/kozachek-white.svg" alt="логотип">
+            </a>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link footer__nav-link--main" href="#header__top">Главная</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="services.html">Услуги</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="autopark.html">Автопарк</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__contacts">
+              <div class="footer__contacts-text">
+                <a class="footer__tel" href="tel:+79201555033">+7 (920) 155-5033</a>
+                <a class="footer__mail" href="mailto:info@tk-kozachek.ru">info@tk-kozachek.ru</a>
+              </div>
+              <div class="footer__contacts-icon">
+                <svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24.3938 0.407196C17.766 0.407196 11.9 3.7159 8.3493 8.76504C9.08414 9.24444 9.80043 9.90185 10.4932 10.747C13.1421 6.78619 17.4252 4.00729 22.3807 3.40991L24.3936 6.8161L26.4064 3.40984C34.0239 4.32787 40.0788 10.3825 40.9972 17.9999L37.5905 20.013L40.9973 22.0262C40.3833 27.119 37.4667 31.5036 33.3289 34.1314C33.5924 34.7322 33.7409 35.3466 33.7671 35.98C33.7865 36.4428 33.7387 36.8802 33.6428 37.2954C39.802 33.9859 44 27.4816 44 20.0134C44 9.20224 35.205 0.407196 24.3938 0.407196ZM29.3971 32.6967C24.8774 29.0643 23.6136 30.8498 21.5628 32.9003C20.1311 34.3325 16.508 31.3417 13.3796 28.2132C10.251 25.0842 7.2608 21.4617 8.69238 20.0298C10.7433 17.9792 12.5283 16.7147 8.89491 12.1962C5.26276 7.67604 2.84146 11.1463 0.854919 13.133C-1.43855 15.4256 0.734063 23.9695 9.17818 32.4149C17.6234 40.8592 26.1672 43.0303 28.4593 40.7385C30.4456 38.7518 33.9169 36.3308 29.3971 32.6967ZM15.6319 23.0816C15.6319 19.0641 20.3353 18.3484 20.3353 16.7807C20.3353 16.0199 19.7264 15.7006 19.1632 15.7006C18.1281 15.7006 17.5503 16.8569 17.5503 16.8569L15.5716 15.5329C15.5716 15.5329 16.5762 13.1891 19.407 13.1891C21.1875 13.1891 23.1204 14.209 23.1204 16.5222C23.1204 19.9162 18.737 20.5709 18.6608 21.9711H23.288V24.2538H15.754C15.6777 23.8278 15.6319 23.4475 15.6319 23.0816ZM24.4007 20.0078L28.6018 13.3715H31.8587V19.414H33.1522V21.6206H31.8587V24.254H29.2254V21.6206H24.4007V20.0078H24.4007ZM29.2253 19.414V16.9788C29.2253 16.3851 29.3167 15.7609 29.3167 15.7609H29.2863C29.2863 15.7609 29.0583 16.4308 28.7535 16.8874L27.1102 19.3836V19.4141L29.2253 19.414Z"
+                    fill="black" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__bottom-inner">
+            <div class="footer__content-left">
+              <p class="footer__bottom-text">
+                Индивидуальный предприниматель Козачёк Денис Андреевич
+              </p>
+              <p class="footer__bottom-text">
+                Юридический адрес: 196634, Г.Санкт-Петербург, п.Шушары (Славянка), ул.Полоцкая, д.4, корппус 1, кв.40
+                Почтовый адрес: 171090, Тверская область, пгт ЗАТО Озерный, ул.Садовая, д.3, кв.28
+              </p>
+              <p class="footer__bottom-text">
+                ИНН 690708441616 <br>
+                ОГРН 319784700115455 <br>
+                Р\С 40802810400001036511 <br>
+                Банк: “АО Тинькофф Банк” <br>
+                К/Р: 30101810145250000974 <br>
+                БИК: 044525974
+              </p>
+              <p class="footer__bottom-text">
+                © 2021 KOZACHEK | Все права защищены
+              </p>
+            </div>
+            <div class="footer__content-right">
+              <a class="footer__bottom-link" href="#header__top">
+                <span class="footer__link-text">вернуться в начало</span>
+                <div class="footer__link-icon">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+                    style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                    <path id="XMLID_93_"
+                      d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+    	                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+    	                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                </div>
+              </a>
+              <p class="footer__bottom-mission">
+                KOZACHEK - Время первых
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</html>
