@@ -1805,7 +1805,8 @@ h3 {
   /* --------------------- offer ------------------ */
   .offer_services {
     grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
-    grid-gap: 10px 20px;
+    grid-gap: 10px;
+    width: 94%;
   }
 
   .offer__items {
