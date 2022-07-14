@@ -2069,16 +2069,28 @@ h3 {
     line-height: 42px;
     max-width: 100%;
   }
+
   .process__desc {
     font-size: 14px;
-}
-.process__items:nth-child(2){
-margin-bottom: 0px;
-}
-.process__decor-line img {
-  height: 60px;
-}
-.process__text-paragraph {
-  font-size: 13px;
-}
+  }
+
+  .process__items:nth-child(2) {
+    margin-bottom: 0px;
+  }
+
+  .process__items:last-child {
+    margin-top: 10px;
+  }
+
+  .process__decor-line img {
+    height: 40px;
+  }
+
+  .process__text-title {
+    font-size: 18px;
+  }
+
+  .process__text-paragraph {
+    font-size: 13px;
+  }
 }
