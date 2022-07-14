@@ -1526,7 +1526,7 @@ h3 {
   }
 
   /* --------------------- offer ------------------ */
-  .offer__title, .proces__title, .cta__title {
+  .offer__title, .proces__title, .cta__title, .brands__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1576,6 +1576,10 @@ h3 {
 
   .information__text {
     font-size: 22px;
+  }
+    /* --------------------- brands ------------------ */
+    .brands__block {
+      margin-bottom: 0px;
   }
 }
 
@@ -1660,6 +1664,13 @@ h3 {
     font-size: 36px;
     line-height: 45px;
     max-width: 305px;
+  }
+/* --------------------- brands ------------------ */
+.main__brands {
+  padding: 100px 0 80px;
+}
+.brands__title{
+    font-size: 36px;
   }
 }
 
@@ -1824,6 +1835,13 @@ h3 {
   .information__number {
     font-size: 50px;
   }
+  /* --------------------- brands ------------------ */
+  .brands__title {
+    margin-bottom: 0px;
+}
+.brands__block {
+  margin-bottom: -40px;
+}
 }
 
 /* =============== 850px ================== */
@@ -1997,6 +2015,19 @@ h3 {
   .information__text {
     font-size: 13px;
   }
+    /* --------------------- brands ------------------ */
+    .main__brands {
+      padding: 44px 0;
+  }
+  .brands__title {
+    margin-bottom: -20px;
+}
+  .brands__block {
+    margin-bottom: -80px;
+}
+.brands__block:last-child {
+  margin-bottom: -30px;
+}
 }
 
 /* =============== 500px ================== */
@@ -2056,6 +2087,20 @@ h3 {
 
   .information__text {
     font-size: 16px;
+  }
+  /* --------------------- brands ------------------ */
+  .main__brands {
+    padding: 80px 0 100px;
+}
+  .brands__title {
+    margin-bottom: 25px;
+}
+  .brands__block{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .brands__block svg{
+    margin: -29px 0;
   }
 }
 
@@ -2189,4 +2234,12 @@ h3 {
   .information__text {
     font-size: 12px;
 }
+/* --------------------- brands ------------------ */
+.brands__title {
+  font-size: 32px;
+}
+  /* --------------------- brands ------------------ */
+  .brands__block svg{
+    margin: -33px 0;
+  }
 }
