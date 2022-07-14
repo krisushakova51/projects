@@ -1526,7 +1526,7 @@ h3 {
   }
 
   /* --------------------- offer ------------------ */
-  .offer__title {
+  .offer__title, .proces__title, .cta__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1537,11 +1537,6 @@ h3 {
   }
 
   /* --------------------- process ------------------ */
-
-  .proces__title {
-    font-size: 45px;
-    line-height: 55px;
-  }
 
   .process__items {
     align-items: flex-start;
@@ -1572,6 +1567,15 @@ h3 {
 
   .process__text-title {
     font-size: 28px;
+  }
+
+  /* --------------------- information ------------------ */
+  .information__number {
+    font-size: 54px;
+  }
+
+  .information__text {
+    font-size: 22px;
   }
 }
 
@@ -1649,6 +1653,13 @@ h3 {
     font-size: 36px;
     line-height: 45px;
     max-width: 450px;
+  }
+
+  /* --------------------- cta ------------------ */
+  .cta__title {
+    font-size: 36px;
+    line-height: 45px;
+    max-width: 305px;
   }
 }
 
@@ -1808,6 +1819,11 @@ h3 {
     font-size: 26px;
     line-height: 120%;
   }
+
+  /* --------------------- information ------------------ */
+  .information__number {
+    font-size: 50px;
+  }
 }
 
 /* =============== 850px ================== */
@@ -1845,6 +1861,25 @@ h3 {
 
   .process__text-paragraph {
     font-size: 15px;
+  }
+
+  /* --------------------- cta ------------------ */
+  .cta__title {
+    font-size: 34px;
+  }
+
+  .cta__desc {
+    padding: 110px 80px;
+  }
+
+  /* --------------------- information ------------------ */
+  .main__information {
+    padding: 48px 10px;
+  }
+
+
+  .information__text {
+    font-size: 18px;
   }
 }
 
@@ -1938,6 +1973,30 @@ h3 {
   .process__text-title--03 {
     padding-top: 10px;
   }
+
+  /* --------------------- cta ------------------ */
+  .cta__desc {
+    padding: 110px 20px;
+  }
+
+  .cta__title {
+    font-size: 30px;
+    line-height: 42px;
+    max-width: 100%;
+  }
+
+  .button {
+    padding: 13px 38px;
+  }
+
+  /* --------------------- information ------------------ */
+  .information__number {
+    font-size: 40px;
+  }
+
+  .information__text {
+    font-size: 13px;
+  }
 }
 
 /* =============== 500px ================== */
@@ -1972,6 +2031,31 @@ h3 {
 
   .process__text-paragraph {
     font-size: 14px;
+  }
+
+  /* --------------------- cta ------------------ */
+  .cta__title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .cta__desc {
+    padding: 145px 20px;
+  }
+
+  .cta__button {
+    margin-top: 30px;
+  }
+
+  /* --------------------- information ------------------ */
+  .information__list {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .information__text {
+    font-size: 16px;
   }
 }
 
@@ -2093,4 +2177,16 @@ h3 {
   .process__text-paragraph {
     font-size: 13px;
   }
+
+  /* --------------------- cta ------------------ */
+  .cta__block {
+    width: 75%;
+  }
+    /* --------------------- information ------------------ */
+    .information__number {
+      font-size: 38px;
+  }
+  .information__text {
+    font-size: 12px;
+}
 }
