@@ -1526,7 +1526,7 @@ h3 {
   }
 
   /* --------------------- offer ------------------ */
-  .offer__title, .proces__title, .cta__title, .brands__title {
+  .offer__title, .proces__title, .cta__title, .brands__title, .blog__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1554,6 +1554,11 @@ h3 {
   .process__text-paragraph {
     font-size: 16px;
   }
+
+  /* --------------------- process ------------------ */
+  .blog__filter-button {
+    font-size: 30px;
+  }
 }
 
 /* =============== 1100px ================== */
@@ -1577,9 +1582,10 @@ h3 {
   .information__text {
     font-size: 22px;
   }
-    /* --------------------- brands ------------------ */
-    .brands__block {
-      margin-bottom: 0px;
+
+  /* --------------------- brands ------------------ */
+  .brands__block {
+    margin-bottom: 0px;
   }
 }
 
@@ -1665,13 +1671,35 @@ h3 {
     line-height: 45px;
     max-width: 305px;
   }
-/* --------------------- brands ------------------ */
-.main__brands {
-  padding: 100px 0 80px;
-}
-.brands__title{
+
+  /* --------------------- brands ------------------ */
+  .main__brands {
+    padding: 100px 0 80px;
+  }
+
+  .brands__title {
     font-size: 36px;
   }
+
+  /* --------------------- blog ------------------ */
+  .main__blog {
+    padding: 100px 0 136px;
+  }
+
+  .blog__title {
+    font-size: 36px;
+    margin-bottom: 35px;
+  }
+  .blog__filter-box {
+    margin-bottom: 35px;
+}
+
+  .blog__filter-button {
+    font-size: 26px;
+  }
+  .blog__link-title {
+    font-size: 28px;
+}
 }
 
 /* =============== 900px ================== */
@@ -1835,13 +1863,15 @@ h3 {
   .information__number {
     font-size: 50px;
   }
+
   /* --------------------- brands ------------------ */
   .brands__title {
     margin-bottom: 0px;
-}
-.brands__block {
-  margin-bottom: -40px;
-}
+  }
+
+  .brands__block {
+    margin-bottom: -40px;
+  }
 }
 
 /* =============== 850px ================== */
@@ -1895,10 +1925,32 @@ h3 {
     padding: 48px 10px;
   }
 
-
   .information__text {
     font-size: 18px;
   }
+/* --------------------- blog ------------------ */
+  .blog__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.blog__filter-box {
+  margin-bottom: 25px;
+}
+.blog__filter-item {
+  margin-right: 15px;
+}
+.blog__filter-button {
+    font-size: 24px;
+}
+.blog__link-subtitle{
+  font-size: 14px;
+}
+.blog__link-title {
+  font-size: 24px;
+}
+.blog__link-paragraph{
+  font-size: 14px;
+}
 }
 
 /* =============== 700px ================== */
@@ -2015,18 +2067,57 @@ h3 {
   .information__text {
     font-size: 13px;
   }
-    /* --------------------- brands ------------------ */
-    .main__brands {
-      padding: 44px 0;
+
+  /* --------------------- brands ------------------ */
+  .main__brands {
+    padding: 44px 0;
   }
+
   .brands__title {
     margin-bottom: -20px;
-}
+  }
+
   .brands__block {
     margin-bottom: -80px;
+  }
+
+  .brands__block:last-child {
+    margin-bottom: -30px;
+  }
+  /* --------------------- blog ------------------ */
+  .main__blog {
+    padding: 80px 0;
 }
-.brands__block:last-child {
-  margin-bottom: -30px;
+.blog__title {
+  margin-bottom: 20px;
+}
+.blog__filter-box {
+  margin-bottom: 20px;
+}
+.blog__filter-item {
+  margin-right: 10px;
+}
+.blog__filter-button {
+  font-size: 20px;
+}
+
+  .blog__list{
+    grid-template: repeat(3, auto) / repeat(2, 1fr);
+    gap: 40px 20px;
+  }
+  .blog__link-content {
+    padding-top: 20px;
+}
+  .blog__link-subtitle {
+    font-size: 13px;
+  }
+  .blog__link-title {
+    font-size: 20px;
+    margin: 12px 0;
+    line-height: 140%;
+}
+.blog__link-paragraph {
+  font-size: 13px;
 }
 }
 
@@ -2088,20 +2179,37 @@ h3 {
   .information__text {
     font-size: 16px;
   }
+
   /* --------------------- brands ------------------ */
   .main__brands {
     padding: 80px 0 100px;
-}
+  }
+
   .brands__title {
     margin-bottom: 25px;
-}
-  .brands__block{
+  }
+
+  .brands__block {
     flex-direction: column;
     margin-bottom: 0px;
   }
-  .brands__block svg{
+
+  .brands__block svg {
     margin: -29px 0;
   }
+    /* --------------------- blog ------------------ */
+    .blog__filter-box {
+      justify-content: space-between;
+  }
+  .blog__filter-button{
+    padding: 0;
+  }
+  .blog__link-title {
+    font-size: 18px;
+}
+.blog__link-paragraph {
+  font-size: 12px;
+}
 }
 
 /* =============== 400px ================== */
@@ -2227,19 +2335,34 @@ h3 {
   .cta__block {
     width: 75%;
   }
-    /* --------------------- information ------------------ */
-    .information__number {
-      font-size: 38px;
+
+  /* --------------------- information ------------------ */
+  .information__number {
+    font-size: 38px;
   }
+
   .information__text {
     font-size: 12px;
-}
-/* --------------------- brands ------------------ */
-.brands__title {
-  font-size: 32px;
-}
+  }
+
   /* --------------------- brands ------------------ */
-  .brands__block svg{
+  .brands__title, .blog__title {
+    font-size: 32px;
+  }
+
+  /* --------------------- brands ------------------ */
+  .brands__block svg {
     margin: -33px 0;
   }
+  /* --------------------- blog ------------------ */
+  .blog__filter-button {
+    font-size: 18px;
+}
+.blog__list {
+  grid-template: repeat(6, auto) / 1fr;
+  gap: 40px 0;
+}
+.blog__link-content {
+  padding-top: 10px;
+}
 }
