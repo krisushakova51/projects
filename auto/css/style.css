@@ -1528,7 +1528,7 @@ h3 {
 
   /* --------------------- offer ------------------ */
   .offer__title, .proces__title, .cta__title, .brands__title,
-  .blog__title, .reviews__title {
+  .blog__title, .reviews__title, .faq__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1688,7 +1688,7 @@ h3 {
     padding: 100px 0 80px;
   }
 
-  .brands__title {
+  .brands__title, .faq__title {
     font-size: 36px;
   }
 
@@ -1723,6 +1723,20 @@ h3 {
   .reviews__desc {
     font-size: 20px;
   }
+  /* --------------------- faq ------------------ */
+  .faq__title {
+    margin-bottom: 60px;
+}
+  .faq__head-title {
+    font-size: 22px;
+}
+.faq__accordeon-link {
+  padding: 35px 40px;
+}
+.faq__head-rectangle {
+  width: 43px;
+  height: 43px;
+}
 }
 
 /* =============== 900px ================== */
@@ -2194,6 +2208,29 @@ h3 {
   .reviews__desc {
     font-size: 18px;
   }
+  /* --------------------- faq ------------------ */
+  .main__faq {
+    padding: 100px 0;
+}
+.faq__head-title {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.faq__accordeon-link {
+  padding: 35px 20px;
+}
+.faq__accordeon-text {
+  font-size: 16px;
+}
+.faq__head-rectangle::before, .faq__head-rectangle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 17px;
+  height: 2px;
+  background-color: #fff;
+}
 }
 
 /* =============== 500px ================== */
@@ -2302,6 +2339,34 @@ h3 {
   .reviews__name {
     font-size: 20px;
   }
+  /* --------------------- faq ------------------ */
+  .faq__title {
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+  .faq__head-title {
+    font-size: 15px;
+    line-height: 140%;
+}
+.faq__accordeon-link {
+  padding: 27px 20px;
+}
+.faq__accordeon-text {
+  font-size: 13px;
+}
+.faq__head-rectangle {
+  width: 30px;
+  height: 30px;
+}
+.faq__head-rectangle::before, .faq__head-rectangle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  width: 13px;
+  height: 2px;
+  background-color: #fff;
+}
 }
 
 /* =============== 400px ================== */
@@ -2483,5 +2548,16 @@ h3 {
 }
   .reviews__desc {
     font-size: 14px;
+}
+/* --------------------- faq ------------------ */
+.main__faq {
+  padding: 80px 0;
+}
+.faq__head-title {
+  font-size: 14px;
+  max-width: 150px;
+}
+.faq__accordeon-text {
+  font-size: 12px;
 }
 }

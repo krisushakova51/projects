@@ -32,7 +32,7 @@ $(function () {
     dots: true,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1100,
         settings: {
           slidesToShow: 1
         }
