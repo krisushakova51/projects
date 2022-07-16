@@ -29,7 +29,15 @@ $(function () {
     slidesToShow: 2,
     infinite: true,
     waitForAnimate: false,
-    dots: true
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   })
   $('.reviews__slider-prev').on('click', function(e) {
     e.preventDefault()
@@ -41,6 +49,7 @@ $(function () {
   })
   
 
+// =========== слайдер 2 SLICKSLIDER =================
 
   $('.testimonials__slider').slick({
     arrows: false,

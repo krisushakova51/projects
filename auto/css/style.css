@@ -810,6 +810,7 @@ h3 {
   background-image: linear-gradient(to left, rgba(187, 187, 187, 0.489), rgba(0, 0, 0, 0));
   transition: all .5s;
   border-radius: 6px;
+  height: 100%;
 }
 
 .reviews-socials svg {
@@ -1526,7 +1527,8 @@ h3 {
   }
 
   /* --------------------- offer ------------------ */
-  .offer__title, .proces__title, .cta__title, .brands__title, .blog__title {
+  .offer__title, .proces__title, .cta__title, .brands__title,
+  .blog__title, .reviews__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1555,9 +1557,18 @@ h3 {
     font-size: 16px;
   }
 
-  /* --------------------- process ------------------ */
+  /* --------------------- blog ------------------ */
   .blog__filter-button {
     font-size: 30px;
+  }
+
+  /* --------------------- reviews ------------------ */
+  .reviews__title {
+    max-width: 800px;
+  }
+
+  .reviews__desc {
+    max-width: 100%;
   }
 }
 
@@ -1686,20 +1697,32 @@ h3 {
     padding: 100px 0 136px;
   }
 
-  .blog__title {
+  .blog__title, .reviews__title {
     font-size: 36px;
     margin-bottom: 35px;
   }
+
   .blog__filter-box {
     margin-bottom: 35px;
-}
+  }
 
   .blog__filter-button {
     font-size: 26px;
   }
+
   .blog__link-title {
     font-size: 28px;
-}
+  }
+
+  /* --------------------- reviews ------------------ */
+  .reviews__title {
+    max-width: 700px;
+    line-height: 45px;
+  }
+
+  .reviews__desc {
+    font-size: 20px;
+  }
 }
 
 /* =============== 900px ================== */
@@ -1928,29 +1951,63 @@ h3 {
   .information__text {
     font-size: 18px;
   }
-/* --------------------- blog ------------------ */
+
+  /* --------------------- blog ------------------ */
   .blog__title {
     font-size: 36px;
     margin-bottom: 30px;
-}
-.blog__filter-box {
-  margin-bottom: 25px;
-}
-.blog__filter-item {
-  margin-right: 15px;
-}
-.blog__filter-button {
+  }
+
+  .blog__filter-box {
+    margin-bottom: 25px;
+  }
+
+  .blog__filter-item {
+    margin-right: 15px;
+  }
+
+  .blog__filter-button {
     font-size: 24px;
-}
-.blog__link-subtitle{
-  font-size: 14px;
-}
-.blog__link-title {
-  font-size: 24px;
-}
-.blog__link-paragraph{
-  font-size: 14px;
-}
+  }
+
+  .blog__link-subtitle {
+    font-size: 14px;
+  }
+
+  .blog__link-title {
+    font-size: 24px;
+  }
+
+  .blog__link-paragraph {
+    font-size: 14px;
+  }
+
+  /* --------------------- reviews ------------------ */
+  .reviews__slider button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .reviews__circle {
+    padding: 10px 8px;
+  }
+
+  .reviews__circle svg {
+    width: 18px;
+    height: 11px;
+  }
+
+  .reviews__slider-arrows {
+    margin-top: -30px;
+  }
+
+  .reviews__slider-next {
+    margin-left: 10px;
+  }
+
+  .reviews-socials {
+    display: none;
+  }
 }
 
 /* =============== 700px ================== */
@@ -2084,41 +2141,59 @@ h3 {
   .brands__block:last-child {
     margin-bottom: -30px;
   }
+
   /* --------------------- blog ------------------ */
   .main__blog {
     padding: 80px 0;
-}
-.blog__title {
-  margin-bottom: 20px;
-}
-.blog__filter-box {
-  margin-bottom: 20px;
-}
-.blog__filter-item {
-  margin-right: 10px;
-}
-.blog__filter-button {
-  font-size: 20px;
-}
+  }
 
-  .blog__list{
+  .blog__title {
+    margin-bottom: 20px;
+  }
+
+  .blog__filter-box {
+    margin-bottom: 20px;
+  }
+
+  .blog__filter-item {
+    margin-right: 10px;
+  }
+
+  .blog__filter-button {
+    font-size: 20px;
+  }
+
+  .blog__list {
     grid-template: repeat(3, auto) / repeat(2, 1fr);
     gap: 40px 20px;
   }
+
   .blog__link-content {
     padding-top: 20px;
-}
+  }
+
   .blog__link-subtitle {
     font-size: 13px;
   }
+
   .blog__link-title {
     font-size: 20px;
     margin: 12px 0;
     line-height: 140%;
-}
-.blog__link-paragraph {
-  font-size: 13px;
-}
+  }
+
+  .blog__link-paragraph {
+    font-size: 13px;
+  }
+
+  /* --------------------- reviews ------------------ */
+  .reviews__slide-inner {
+    padding: 50px;
+  }
+
+  .reviews__desc {
+    font-size: 18px;
+  }
 }
 
 /* =============== 500px ================== */
@@ -2197,19 +2272,36 @@ h3 {
   .brands__block svg {
     margin: -29px 0;
   }
-    /* --------------------- blog ------------------ */
-    .blog__filter-box {
-      justify-content: space-between;
+
+  /* --------------------- blog ------------------ */
+  .blog__filter-box {
+    justify-content: space-between;
   }
-  .blog__filter-button{
+
+  .blog__filter-button {
     padding: 0;
   }
+
   .blog__link-title {
     font-size: 18px;
-}
-.blog__link-paragraph {
-  font-size: 12px;
-}
+  }
+
+  .blog__link-paragraph {
+    font-size: 12px;
+  }
+
+  /* --------------------- reviews ------------------ */
+  .main__reviews {
+    padding: 100px 0;
+  }
+
+  .reviews__slider-arrows {
+    display: none;
+  }
+
+  .reviews__name {
+    font-size: 20px;
+  }
 }
 
 /* =============== 400px ================== */
@@ -2295,7 +2387,7 @@ h3 {
   }
 
   /* --------------------- offer ------------------ */
-  .offer__title {
+  .offer__title, .reviews__title {
     font-size: 32px;
     line-height: 42px;
   }
@@ -2354,15 +2446,42 @@ h3 {
   .brands__block svg {
     margin: -33px 0;
   }
+
   /* --------------------- blog ------------------ */
   .blog__filter-button {
     font-size: 18px;
+  }
+
+  .blog__list {
+    grid-template: repeat(6, auto) / 1fr;
+    gap: 40px 0;
+  }
+
+  .blog__link-content {
+    padding-top: 10px;
+  }
+
+  /* --------------------- reviews ------------------ */
+  .main__reviews {
+    padding: 80px 0;
+  }
+  .reviews__author {
+    margin-bottom: 15px;
 }
-.blog__list {
-  grid-template: repeat(6, auto) / 1fr;
-  gap: 40px 0;
+.reviews__image-box {
+  width: 60px;
 }
-.blog__link-content {
-  padding-top: 10px;
+.reviews__about {
+  margin-right: 0;
+}
+  .reviews__name {
+    font-size: 18px;
+    line-height: 120%;
+}
+.reviews__city{
+  font-size: 13px;
+}
+  .reviews__desc {
+    font-size: 14px;
 }
 }
