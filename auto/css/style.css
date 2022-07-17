@@ -1793,6 +1793,10 @@ h3 {
   .footer__body-subtitle {
     margin-bottom: 0px;
 }
+/* --------------------- footer-bottom ------------------ */
+.footer__bottom-nav-item {
+  margin-right: 20px;
+}
 }
 
 /* =============== 900px ================== */
@@ -1981,6 +1985,18 @@ h3 {
 
   .brands__block {
     margin-bottom: -40px;
+  }
+  /* --------------------- footer-bottom ------------------ */
+  .footer__bottom-nav {
+    display: flex;
+    margin-left: 0px;
+}
+.footer__bottom-copy{
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .footer__bottom-nav-link{
+    font-size: 14px;
   }
 }
 
@@ -2376,7 +2392,7 @@ margin-top: 40px;
 }
 /* --------------------- footer-body ------------------ */
 .footer__body {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .footer__body-inner {
   display: block;
@@ -2390,6 +2406,27 @@ margin-top: 40px;
 }
 .footer__body-info-block {
   margin-bottom: 15px;
+}
+/* --------------------- footer-bottom ------------------ */
+.footer__bottom {
+  padding: 40px 0;
+}
+.footer__bottom-inner {
+  display: block;
+}
+.footer__bottom-image-box {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+.footer__bottom-nav {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.footer__bottom-nav-link {
+  font-size: 18px;
+}
+.footer__bottom-copy {
+  font-size: 14px;
 }
 }
 
@@ -2778,5 +2815,18 @@ margin-top: 40px;
 }
 .footer__body-desc {
   font-size: 16px;
+}
+/* --------------------- footer-bottom ------------------ */
+.footer__bottom {
+  padding: 30px 0;
+}
+.footer__bottom-image-box {
+  max-width: 130px;
+}
+.footer__bottom-nav-link {
+  font-size: 16px;
+}
+.footer__bottom-copy {
+  font-size: 13px;
 }
 }
