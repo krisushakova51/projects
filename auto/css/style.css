@@ -1528,7 +1528,7 @@ h3 {
 
   /* --------------------- offer ------------------ */
   .offer__title, .proces__title, .cta__title, .brands__title,
-  .blog__title, .reviews__title, .faq__title {
+  .blog__title, .reviews__title, .faq__title, .contact__title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1570,6 +1570,32 @@ h3 {
   .reviews__desc {
     max-width: 100%;
   }
+
+  /* --------------------- contact ------------------ */
+  .contact__title {
+    max-width: 355px;
+  }
+
+  .contact__button {
+    padding: 13px 33px;
+    font-size: 16px;
+  }
+
+  .contact__info {
+    margin-top: 50px;
+  }
+
+  .contact__info-item {
+    margin-bottom: 20px;
+  }
+
+  .contact__info-title {
+    margin-bottom: 0px;
+  }
+
+  .contact__info-desc {
+    font-size: 22px;
+  }
 }
 
 /* =============== 1100px ================== */
@@ -1597,6 +1623,12 @@ h3 {
   /* --------------------- brands ------------------ */
   .brands__block {
     margin-bottom: 0px;
+  }
+
+  /* --------------------- contact ------------------ */
+  .contact__content {
+    width: 500px;
+    margin-right: 60px;
   }
 }
 
@@ -1688,7 +1720,7 @@ h3 {
     padding: 100px 0 80px;
   }
 
-  .brands__title, .faq__title {
+  .brands__title, .faq__title, .contact__title {
     font-size: 36px;
   }
 
@@ -1723,20 +1755,42 @@ h3 {
   .reviews__desc {
     font-size: 20px;
   }
+
   /* --------------------- faq ------------------ */
   .faq__title {
     margin-bottom: 60px;
-}
+  }
+
   .faq__head-title {
     font-size: 22px;
-}
-.faq__accordeon-link {
-  padding: 35px 40px;
-}
-.faq__head-rectangle {
-  width: 43px;
-  height: 43px;
-}
+  }
+
+  .faq__accordeon-link {
+    padding: 35px 40px;
+  }
+
+  .faq__head-rectangle {
+    width: 43px;
+    height: 43px;
+  }
+
+  /* --------------------- contact ------------------ */
+  .contact__title {
+    line-height: 45px;
+    max-width: 280px;
+  }
+
+  .contact__checkbox-desc, .contact__info-title {
+    font-size: 14px;
+  }
+
+  .contact__info {
+    margin-top: 30px;
+  }
+
+  .contact__info-desc {
+    font-size: 20px;
+  }
 }
 
 /* =============== 900px ================== */
@@ -2022,6 +2076,11 @@ h3 {
   .reviews-socials {
     display: none;
   }
+
+  /* --------------------- contact ------------------ */
+  .contact__info-desc {
+    font-size: 17px;
+  }
 }
 
 /* =============== 700px ================== */
@@ -2208,28 +2267,75 @@ h3 {
   .reviews__desc {
     font-size: 18px;
   }
+
   /* --------------------- faq ------------------ */
   .main__faq {
     padding: 100px 0;
+  }
+
+  .faq__head-title {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .faq__accordeon-link {
+    padding: 35px 20px;
+  }
+
+  .faq__accordeon-text {
+    font-size: 16px;
+  }
+
+  .faq__head-rectangle::before, .faq__head-rectangle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 17px;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  /* --------------------- contact ------------------ */
+  .main__contact {
+    padding: 100px 0;
 }
-.faq__head-title {
-  font-size: 20px;
-  margin-right: 10px;
+  .contact__inner {
+flex-direction: column;
+align-items: flex-start;
 }
-.faq__accordeon-link {
-  padding: 35px 20px;
+.contact__content {
+  width: 90%;
+  margin-right: 0;
 }
-.faq__accordeon-text {
-  font-size: 16px;
+.contact__form {
+
+  margin: 40px auto 0;
 }
-.faq__head-rectangle::before, .faq__head-rectangle::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  width: 17px;
-  height: 2px;
-  background-color: #fff;
+.contact__message {
+  margin-bottom: 20px;
+}
+.contact__form-checkbox {
+  width: 14px;
+  height: 14px;
+}
+.contact__checkbox-desc, .contact__info-title {
+  font-size: 13px;
+}
+.contact__checkbox-desc {
+  max-width: 220px;
+}
+.contact__info{
+display: grid;
+grid-template: 1fr / repeat(3, 1fr);
+column-gap: 10px;
+margin-top: 40px;
+}
+.contact__info-item {
+  margin-bottom: 0px;
+}
+.contact__info-desc {
+  font-size: 15px;
 }
 }
 
@@ -2339,33 +2445,59 @@ h3 {
   .reviews__name {
     font-size: 20px;
   }
+
   /* --------------------- faq ------------------ */
   .faq__title {
     line-height: 50px;
     margin-bottom: 40px;
-}
+  }
+
   .faq__head-title {
     font-size: 15px;
     line-height: 140%;
+  }
+
+  .faq__accordeon-link {
+    padding: 27px 20px;
+  }
+
+  .faq__accordeon-text {
+    font-size: 13px;
+  }
+
+  .faq__head-rectangle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .faq__head-rectangle::before, .faq__head-rectangle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    width: 13px;
+    height: 2px;
+    background-color: #fff;
+  }
+  /* --------------------- contact ------------------ */
+  .contact__content {
+    width: 100%;
 }
-.faq__accordeon-link {
-  padding: 27px 20px;
+.contact__buttons {
+  display: block;
 }
-.faq__accordeon-text {
-  font-size: 13px;
+.contact__checkbox-desc {
+  max-width: 100%;
+  margin-bottom: 15px;
 }
-.faq__head-rectangle {
-  width: 30px;
-  height: 30px;
+.contact__button{
+  width: 100%;
 }
-.faq__head-rectangle::before, .faq__head-rectangle::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 26%;
-  width: 13px;
-  height: 2px;
-  background-color: #fff;
+.contact__info {
+  display: block;
+}
+.contact__info-item {
+  margin-bottom: 10px;
 }
 }
 
@@ -2503,7 +2635,7 @@ h3 {
   }
 
   /* --------------------- brands ------------------ */
-  .brands__title, .blog__title {
+  .brands__title, .blog__title, .faq__title, .contact__title {
     font-size: 32px;
   }
 
@@ -2530,34 +2662,56 @@ h3 {
   .main__reviews {
     padding: 80px 0;
   }
+
   .reviews__author {
     margin-bottom: 15px;
-}
-.reviews__image-box {
-  width: 60px;
-}
-.reviews__about {
-  margin-right: 0;
-}
+  }
+
+  .reviews__image-box {
+    width: 60px;
+  }
+
+  .reviews__about {
+    margin-right: 0;
+  }
+
   .reviews__name {
     font-size: 18px;
     line-height: 120%;
-}
-.reviews__city{
-  font-size: 13px;
-}
+  }
+
+  .reviews__city {
+    font-size: 13px;
+  }
+
   .reviews__desc {
     font-size: 14px;
+  }
+
+  /* --------------------- faq ------------------ */
+  .main__faq {
+    padding: 80px 0;
+  }
+  .faq__title {
+    line-height: 45px;
 }
-/* --------------------- faq ------------------ */
-.main__faq {
-  padding: 80px 0;
+
+  .faq__head-title {
+    font-size: 14px;
+    max-width: 150px;
+  }
+
+  .faq__accordeon-text {
+    font-size: 12px;
+  }
+  /* --------------------- contact ------------------ */
+  .main__contact {
+    padding: 80px 0;
 }
-.faq__head-title {
-  font-size: 14px;
-  max-width: 150px;
-}
-.faq__accordeon-text {
-  font-size: 12px;
+  .contact__title{
+    max-width: 250px;
+  }
+  .contact__form {
+    margin: 20px auto 0;
 }
 }
