@@ -2081,6 +2081,10 @@ h3 {
   .contact__info-desc {
     font-size: 17px;
   }
+  /* --------------------- location ------------------ */
+  .location__bg {
+    height: 400px;
+}
 }
 
 /* =============== 700px ================== */
@@ -2336,6 +2340,10 @@ margin-top: 40px;
 }
 .contact__info-desc {
   font-size: 15px;
+}
+  /* --------------------- location ------------------ */
+  .location__bg {
+    height: 300px;
 }
 }
 
