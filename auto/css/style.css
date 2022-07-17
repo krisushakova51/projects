@@ -20,24 +20,6 @@ html, body {
   height: 100%;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.299);
-  z-index: 99;
-  visibility: hidden;
-  opacity: 0;
-  transition: all .3s;
-}
-
-.overlay--show {
-  visibility: visible;
-  opacity: 1;
-}
-
 .burger {
   display: none;
 }
@@ -1528,7 +1510,8 @@ h3 {
 
   /* --------------------- offer ------------------ */
   .offer__title, .proces__title, .cta__title, .brands__title,
-  .blog__title, .reviews__title, .faq__title, .contact__title {
+  .blog__title, .reviews__title, .faq__title, .contact__title,
+  .footer__body-title {
     font-size: 45px;
     line-height: 55px;
   }
@@ -1630,6 +1613,16 @@ h3 {
     width: 500px;
     margin-right: 60px;
   }
+  /* --------------------- footer-body ------------------ */
+  .footer__body-left {
+    margin-right: 100px;
+}
+  .footer__body-subtitle {
+    font-size: 16px;
+}
+  .footer__body-desc {
+    font-size: 20px;
+}
 }
 
 /* =============== 1000px ================== */
@@ -1720,7 +1713,8 @@ h3 {
     padding: 100px 0 80px;
   }
 
-  .brands__title, .faq__title, .contact__title {
+  .brands__title, .faq__title, .contact__title,
+  .footer__body-title {
     font-size: 36px;
   }
 
@@ -1791,6 +1785,14 @@ h3 {
   .contact__info-desc {
     font-size: 20px;
   }
+  /* --------------------- footer-body ------------------ */
+  .footer__body-title{
+    max-width: 350px;
+    line-height: 45px;
+  }
+  .footer__body-subtitle {
+    margin-bottom: 0px;
+}
 }
 
 /* =============== 900px ================== */
@@ -1798,6 +1800,23 @@ h3 {
 @media (max-width: 900px) {
 
   /* --------------------- header-top ------------------ */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.299);
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+  }
+  
+  .overlay--show {
+    visibility: visible;
+    opacity: 1;
+  }
   .burger {
     position: fixed;
     top: 1%;
@@ -2085,6 +2104,16 @@ h3 {
   .location__bg {
     height: 400px;
 }
+/* --------------------- footer-body ------------------ */
+.footer__body-left {
+  margin-right: 50px;
+}
+.footer__body-desc {
+  font-size: 18px;
+}
+.footer__body-subtitle {
+  font-size: 14px;
+}
 }
 
 /* =============== 700px ================== */
@@ -2344,6 +2373,23 @@ margin-top: 40px;
   /* --------------------- location ------------------ */
   .location__bg {
     height: 300px;
+}
+/* --------------------- footer-body ------------------ */
+.footer__body {
+  padding: 100px 0;
+}
+.footer__body-inner {
+  display: block;
+}
+.footer__body-title {
+  max-width: 370px;
+  margin-bottom: 30px;
+}
+.footer__body-socials {
+  margin-bottom: 30px;
+}
+.footer__body-info-block {
+  margin-bottom: 15px;
 }
 }
 
@@ -2643,7 +2689,8 @@ margin-top: 40px;
   }
 
   /* --------------------- brands ------------------ */
-  .brands__title, .blog__title, .faq__title, .contact__title {
+  .brands__title, .blog__title, .faq__title, .contact__title,
+  .footer__body-title {
     font-size: 32px;
   }
 
@@ -2721,5 +2768,15 @@ margin-top: 40px;
   }
   .contact__form {
     margin: 20px auto 0;
+}
+/* --------------------- footer-body ------------------ */
+.footer__body {
+  padding: 80px 0;
+}
+.footer__body-subtitle {
+  font-size: 13px;
+}
+.footer__body-desc {
+  font-size: 16px;
 }
 }
