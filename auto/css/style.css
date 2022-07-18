@@ -841,6 +841,7 @@ h3 {
 }
 
 .reviews__slider-arrows {
+  z-index: 10;
   align-self: flex-end;
   margin-top: -35px;
   display: flex;
